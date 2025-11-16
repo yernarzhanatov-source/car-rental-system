@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     res.json({ message: "Car Rental API is running" });
 });
 
-const PORT = 5000;
+const PORT = 3306;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
